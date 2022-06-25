@@ -1,5 +1,3 @@
-https://md2pdf.netlify.app/
-지라 사용자 추가시 미리 노티 필요 - Free Plan에서 전환됨. (10명 제한)
 # Chapter 2. 아키텍처 개요
 
 ## 2.1 네 개의 영역
