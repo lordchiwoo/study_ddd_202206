@@ -1,6 +1,3 @@
-https://md2pdf.netlify.app/
-https://books.google.co.kr/books?id=bi5qEAAAQBAJ&pg=PA90&lpg=PA90&dq=DDD+2.20%EC%9A%94%EC%B2%AD+%EC%B2%98%EB%A6%AC+%ED%9D%90%EB%A6%84&source=bl&ots=dc0XP0Lhrh&sig=ACfU3U0ZnNxvpA2LCVT0FF2QtP4a41QSAQ&hl=en&sa=X&ved=2ahUKEwiplOyMqsj4AhWumFYBHRlaCAQQ6AF6BAgCEAM#v=onepage&q=DDD%202.20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84&f=false
-
 # Chapter 3. 애그리거트
 
 ## 3.1 애그리거트
