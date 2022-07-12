@@ -82,8 +82,8 @@
 * 밸류 타입의 프로퍼티를 하나의 칼럼에 매핑하는 경우
 	* ex) length.value, length.unit을 합쳐 '1000 mm' 같은 형식으로 저장
 	* @Embeddable만으로는 처리 불가능하므로 AttrivuteConverter를 사용한다.
-	```JAVA
-	//X는 밸류 타입, Y는 DB 컬럼
+```JAVA
+//X는 밸류 타입, Y는 DB 컬럼
 public interface AttributeConverter<X,Y> {
     public Y convertToDatabaseColumn (X attribute);
     public X convertToEntityAttribute (Y dbData);
@@ -115,7 +115,7 @@ public class Order {
 	private Money totalAmounts;
 	...
 }
-	```
+```
 	
 ### 4.3.5 밸류 컬렉션 : 별도 테이블 매핑
 * 다른 테이블의 키를 참조하는 테이블의 데이터를 List로 가져오는 경우
@@ -341,4 +341,3 @@ public class Product {
 * DIP를 완벽하게 지키면 좋겠지만 개발 편의성과 실용성을 가져가면서 구조적인 유연함은 어느정도 유지했다.
 * 복잡도를 높이지 않으면서 기술에 따른 구현 제약이 낮다면 합리적인 선택이라고 생각한다.
 * **논의 필요**
-  
